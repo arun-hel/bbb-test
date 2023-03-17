@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  bbb_bot:
+    build: .
+    container_name: bbb_bot
+    env_file:
+      - .env
